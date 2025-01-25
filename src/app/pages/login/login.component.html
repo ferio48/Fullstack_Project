@@ -1,0 +1,32 @@
+<div class="main">
+    <div class="formContainer">
+        <form [formGroup]="empForm" class="formclass">
+            
+                <h1 class="title">Login / <span class="signup">SignUp</span></h1>
+                
+                <div mat-dialog-content class="content">
+                    <div class="row">
+                        <mat-form-field appearance="outline">
+                            <mat-label>Username</mat-label>
+                            <input matInput type="text" placeholder="username" formControlName="userName">
+                        </mat-form-field>
+                    </div>
+                </div>
+                <div class="row">
+                    <mat-form-field appearance="outline">
+                        <mat-label>Password</mat-label>
+                        <input matInput type="password" placeholder="password" formControlName="password">
+                    </mat-form-field>
+                </div>
+                <div class="rowbutton">
+                    <div mat-dialog-actions class="action">
+                        <button mat-raised-button (click)="openAddUserForm()">SignUp</button> <!-- [mat-dialog-close]="false" will close the dialog box and return false -->
+                        <button mat-raised-button color="primary" (click)="navigateToShowAllUsers()">Login</button>
+                    </div>
+                </div>
+                <div class="googleBtnDiv">
+                    <button class="googleBtn" id="google-btn"></button>
+                </div>
+            </form>
+        </div>
+</div>

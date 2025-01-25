@@ -1,0 +1,70 @@
+.content {
+    padding-top: 10px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+
+    mat-form-field {
+        width: 100%;
+    }
+}
+
+.formContainer {
+    background-image: url("https://c0.wallpaperflare.com/preview/389/615/630/business-businessman-communication-concept.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formclass {
+    width: 30rem;
+    border: 1px solid #3f51b5; // Border color is set to blue, change it as needed
+    padding: 1.5rem; // Adjust the padding as needed
+    border-radius: 0.25rem; // Rounded corners with a 0.25rem radius
+    .title {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        color: #3f51b5;
+    }
+}
+
+.rowbutton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    .action {
+        display: flex;
+        width: 100%;
+        gap: 10px;
+        justify-content: space-between;
+
+        button {
+            flex-grow: 1;
+        }
+    }
+}
+
+.signup {
+    color: black;
+}
+
+.googleBtnDiv {
+    align-items: center;
+    justify-content: center;
+    
+    .googleBtn {
+        margin-left: 85px;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        border-color: transparent;
+    }
+}

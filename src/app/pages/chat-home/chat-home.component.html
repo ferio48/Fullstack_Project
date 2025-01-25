@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="chat-list mat-elevation-z5">
+        <form [formGroup]="chatForm" class="search-input">
+            <mat-form-field>
+                <input matInput placeholder="Search for users..." [formControl]="searchControl" [matAutocomplete]="users">
+                <mat-autocomplete autoActiveFirstOption #users="matAutocomplete">
+                    <mat-option *ngFor="let user of user$ | async" (click)="createChat(user)">{{user.email}}</mat-option>
+                </mat-autocomplete>
+            </mat-form-field>
+        </form>
+    </div>
+    <div class="messages mat-elevation-z5"></div>
+</div>

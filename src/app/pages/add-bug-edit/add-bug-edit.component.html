@@ -1,0 +1,68 @@
+<div mat-dialog-title class="formtitle">
+    <h1 class="heading">Bug <span style="color: black;">Report</span></h1>
+</div>
+<form [formGroup]="empForm">
+    <div mat-dialog-content class="content">
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Bug Name</mat-label>
+                <input matInput type="text" placeholder="Bug Name">
+                <mat-hint style="color: #f44336;">
+                    Bug Name is required!
+                </mat-hint>
+                <mat-hint style="color: #f44336;">
+                    Bug Name is too short!
+                </mat-hint>
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Bug Description</mat-label>
+                <input matInput type="text" placeholder="First Name" formControlName="firstName">
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Bug Discovered</mat-label>
+                <input matInput [matDatepicker]="picker">
+                <mat-hint style="color: #f44336;">
+                    Required(MM/DD/YYYY)
+                </mat-hint>
+                <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Bug Resolved</mat-label>
+                <input matInput [matDatepicker]="picker">
+                <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+        </div>
+        
+        <div class="row">
+            <mat-form-field appearance="outline" >
+                <mat-label>Priority</mat-label>
+                <mat-select formControlName="education">
+                    <mat-option *ngFor="let val of priority" [value]="val">
+                        {{val}}
+                    </mat-option>
+                </mat-select>
+                <!-- <mat-hint style="color: #3f51b5;" *ngIf="empForm.get('education')?.touched && empForm.get('education')?.errors">
+                    Education is required
+                </mat-hint> -->
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Bug Manager</mat-label>
+                <input matInput placeholder="Ex. Pranav">
+                <!-- <mat-hint style="color: #3f51b5;" *ngIf="empForm.get('company')?.touched && empForm.get('company')?.errors">
+                    Company is required
+                </mat-hint> -->
+            </mat-form-field>
+        </div>
+    </div>
+    <div mat-dialog-actions class="action">
+         <button mat-raised-button type="button" [mat-dialog-close]="false">Cancel</button> <!-- [mat-dialog-close]="false" will close the dialog box and return false -->
+         <button mat-raised-button color="warn" type="submit">Save</button>
+        </div>
+    </form>
+

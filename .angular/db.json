@@ -1,0 +1,220 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "userName": "test1",
+      "passWord": "1234",
+      "firstName": "Pranav",
+      "lastName": "Salaria",
+      "email": "test1@gmail.com",
+      "dob": "2024-01-09T18:30:00.000Z",
+      "gender": "male",
+      "education": "Post Graduate",
+      "company": "Genboot",
+      "experience": 1,
+      "package": 1,
+      "id": 1
+    },
+    {
+      "userName": "test2",
+      "passWord": "2345",
+      "firstName": "Gursharn",
+      "lastName": "Kaur",
+      "email": "test2@gmail.com",
+      "dob": "2024-01-09T18:30:00.000Z",
+      "gender": "female",
+      "education": "Graduate",
+      "company": "Genboot",
+      "experience": 1,
+      "package": 1,
+      "id": 2
+    },
+    {
+      "userName": "test3",
+      "passWord": "3456",
+      "firstName": "Harsh",
+      "lastName": "Gundev",
+      "email": "test3@gmail.com",
+      "dob": "2024-01-03T18:30:00.000Z",
+      "gender": "male",
+      "education": "Intermediate",
+      "company": "Genboot",
+      "experience": 3,
+      "package": 4,
+      "id": 3
+    },
+    {
+      "userName": "test6",
+      "passWord": "6789",
+      "firstName": "test6",
+      "lastName": "test6",
+      "email": "test6",
+      "dob": "2024-01-16T18:30:00.000Z",
+      "gender": "male",
+      "education": "Post Graduate",
+      "company": "Genboot",
+      "experience": 1,
+      "package": 1,
+      "id": 5
+    },
+    {
+      "firstname": "test",
+      "lastname": "1234",
+      "email": "test1@gmail.com",
+      "password": "1234",
+      "expertise": 2,
+      "dob": "2024-02-05T18:30:00.000Z",
+      "company": "Genboot",
+      "gender": "",
+      "experience": 1,
+      "roles": "",
+      "id": 6
+    },
+    {
+      "firstname": "test",
+      "lastname": "1234",
+      "email": "test1@gmail.com",
+      "password": "",
+      "expertise": 2,
+      "dob": "2024-02-05T18:30:00.000Z",
+      "company": "Genboot",
+      "gender": "",
+      "experience": 1,
+      "roles": "",
+      "id": 7
+    },
+    {
+      "firstname": "",
+      "lastname": "",
+      "email": "",
+      "password": "",
+      "expertise": "",
+      "dob": "",
+      "company": "",
+      "gender": "",
+      "experience": "",
+      "roles": "Admin",
+      "id": 9
+    },
+    {
+      "firstname": "test",
+      "lastname": "1234",
+      "email": "test1@gmail.com",
+      "password": "1234",
+      "expertise": 2,
+      "dob": "2024-02-05T18:30:00.000Z",
+      "company": "Genboot",
+      "gender": "male",
+      "experience": 1,
+      "roles": "Admin",
+      "id": 10
+    },
+    {
+      "firstname": "test",
+      "lastname": "2",
+      "email": "test2@gmial.com",
+      "password": "2345",
+      "expertise": 1,
+      "dob": "2024-02-05T18:30:00.000Z",
+      "company": "Genboot",
+      "gender": "male",
+      "experience": 1,
+      "roles": "Admin",
+      "id": 11
+    },
+    {
+      "firstname": "test",
+      "lastname": "3",
+      "email": "test3@gmial.com",
+      "password": "3456",
+      "expertise": 1,
+      "dob": "2024-02-06T18:30:00.000Z",
+      "company": "Genboot",
+      "gender": "male",
+      "experience": 1,
+      "roles": "Admin",
+      "id": 12
+    },
+    {
+      "firstname": "test",
+      "lastname": "3",
+      "email": "test3@gmial.com",
+      "password": "",
+      "expertise": 1,
+      "dob": "2024-02-06T18:30:00.000Z",
+      "company": "Genboot",
+      "gender": "",
+      "experience": 1,
+      "roles": "",
+      "id": 13
+    },
+    {
+      "firstname": "test",
+      "lastname": "4",
+      "email": "test4@gmial.com",
+      "password": "1234",
+      "expertise": 1,
+      "dob": "2024-02-06T18:30:00.000Z",
+      "company": "Genboot",
+      "gender": "male",
+      "experience": 1,
+      "roles": "Manager",
+      "id": 14
+    },
+    {
+      "firstname": "test",
+      "lastname": "4",
+      "email": "test4@gmial.com",
+      "password": "1234",
+      "expertise": 1,
+      "dob": "2024-02-06T18:30:00.000Z",
+      "company": "Genboot",
+      "gender": "male",
+      "experience": 1,
+      "roles": "MANAGER",
+      "id": 15
+    },
+    {
+      "firstname": "test",
+      "lastname": "4",
+      "email": "test4@gmial.com",
+      "password": "1234",
+      "expertise": 1,
+      "dob": "2024-02-06T18:30:00.000Z",
+      "company": "Genboot",
+      "gender": "male",
+      "experience": 1,
+      "role": "MANAGER",
+      "id": 16
+    },
+    {
+      "firstname": "test",
+      "lastname": "4",
+      "email": "test4@gmail.com",
+      "password": "1234",
+      "expertise": 1,
+      "dob": "2024-02-06T18:30:00.000Z",
+      "company": "Genboot",
+      "gender": "male",
+      "experience": 1,
+      "role": "MANAGER",
+      "id": 17
+    }
+  ]
+}

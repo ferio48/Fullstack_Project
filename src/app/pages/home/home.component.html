@@ -1,0 +1,107 @@
+<mat-toolbar style="gap: 10px;" color="primary" >
+    <mat-icon>report_problem</mat-icon>
+    <span>REPORTS</span>
+    <span class="example-spacer"></span>
+    <button mat-raised-button (click)="onSignOut()">
+        MEMBERSHIP
+    </button>
+    <button mat-raised-button (click)="onSignOut()">
+        SIGN OUT
+    </button>
+</mat-toolbar>
+
+<div style="display: flex; overflow: scroll;">
+    <mat-card class="example-card">
+        <mat-card-header>
+            <mat-card-title><b>Photo Gallery</b></mat-card-title>
+            <mat-card-subtitle></mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?cs=srgb&dl=pexels-pixabay-36717.jpg&fm=jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+            <p>
+                A photo gallery is a digital or physical 
+                collection of images, often organized for
+                 display or presentation purposes. It serves
+                 as a visual showcase, capturing moments,
+                  memories, and scenes through the lens of 
+                  a camera.These galleries may feature a diverse range
+                   of subjects, from landscapes and portraits to 
+                   abstract art and documentary photography.
+            </p>
+        </mat-card-content>
+        <div class="rowbutton">
+            <div mat-dialog-actions class="action">
+                <button mat-raised-button color="primary" (click)="bugReportClick()">View</button>
+            </div>
+        </div>
+    </mat-card>
+    <mat-card class="example-card">
+        <mat-card-header>
+            <mat-card-title><b>Admin Report</b></mat-card-title>
+            <mat-card-subtitle></mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="assets/admin_HD.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+            <p>
+                An admin report is a document or 
+                presentation that provides a summary 
+                and analysis of relevant information for 
+                administrators or managerial roles within 
+                an organization. The content and structure 
+                of an admin report may vary depending on the 
+                specific needs and objectives of the 
+                organization.
+            </p>
+        </mat-card-content>
+        <div class="rowbutton">
+            <div mat-dialog-actions class="action">
+                <button mat-raised-button color="primary" (click)="onAdminReportClick()">View</button>
+            </div>
+        </div>
+    </mat-card>
+    <mat-card class="example-card">
+        <mat-card-header>
+            <mat-card-title><b>Chats</b></mat-card-title>
+            <mat-card-subtitle></mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="https://cdn.iconscout.com/icon/free/png-256/free-chat-2639493-2187526.png?f=webp" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+            <p>
+                Chats have become an integral part of 
+                communication across various platforms. 
+                From social media to business collaborations, 
+                chats facilitate instant and efficient 
+                exchange of information.
+            </p>
+        </mat-card-content>
+        <div class="rowbutton">
+            <div mat-dialog-actions class="action">
+                <button mat-raised-button color="primary" (click)="navigateToAllChats()">View</button>
+            </div>
+        </div>
+    </mat-card>
+    <mat-card class="example-card">
+        <mat-card-header>
+            <mat-card-title><b>Management Report</b></mat-card-title>
+            <mat-card-subtitle></mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="assets/management_HD.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+            <p>
+                A management report is a document that 
+                provides a comprehensive overview of key 
+                performance indicators, insights, and 
+                relevant information for decision-makers 
+                within an organization. It is designed to 
+                assist management in making informed 
+                decisions and steering the organization 
+                towards its goals.
+            </p>
+        </mat-card-content>
+        <div class="rowbutton">
+            <div mat-dialog-actions class="action">
+                <button mat-raised-button color="primary">View</button>
+            </div>
+        </div>
+    </mat-card>
+</div>

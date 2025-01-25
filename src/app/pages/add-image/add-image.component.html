@@ -1,0 +1,9 @@
+<div mat-dialog-title class="formtitle">
+    <h1 class="heading">Add <span style="color: black;">Image</span></h1>
+</div>
+
+<input type="file" class="file-input" (change)="onSelectFile($event)">
+
+<div class="file-upload">
+    <button mat-raised-button color="primary" (click)="onUploadClick($event)">Upload</button>
+</div>

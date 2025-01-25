@@ -1,0 +1,43 @@
+.example-card {
+    width: 300px;
+    margin: 5px 5px 5px 5px;
+    .cardImg {
+        width: 100%;
+        height: 100%;
+    }
+}
+  
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}
+
+.mainDiv {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("https://www.bhmpics.com/downloads/4k-pattern-wallpaper-/1.1169862.jpg");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.action {
+    padding: 5px;
+    gap: 2px;
+    button {
+        flex: 1
+    }
+}

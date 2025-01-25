@@ -1,0 +1,71 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.example-card {
+    margin: 10px 10px 10px 10px;
+    // max-width: 350px;
+    background-color: aliceblue;
+}
+  
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}
+
+.rowbutton {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    .action {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        button {
+            flex-grow: 1;
+        }
+    }
+}
+
+.signup {
+    color: black;
+}
+
+.profile {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.heading {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #3f51b5;
+    margin-top: 10px;
+}
+
+.content {
+    padding-top: 10px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+
+    mat-form-field {
+        width: 100%;
+    }
+}
+
+.action {
+    padding: 0px 25px 20px;
+    button {
+        flex: 1
+    }
+}
